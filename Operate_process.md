@@ -15,13 +15,13 @@
 
 ## 2）区域下载
 - podaac-data-downloader -c L3S_LEO_PM-STAR-v2.81 -d "E:\data\VIIRS_L3S\PM_Night_KE" -sd 2024-01-01T00:00:00Z -ed 2024-12-31T23:59:59Z -b "140,32,152,40" -gr "*_LEO_PM_N-ACSPO_V2.81-*" -e ".nc" --subset
--c 数据库简短名称
--d 保存文件路径
--sd 起始时间
--ed 终止时间
--gr 通配符匹配
--b 经纬度范围 （lon_min,lat_min,lon_max,lat_max）
--c 文件后缀
+- -c 数据库简短名称
+- -d 保存文件路径
+- -sd 起始时间
+- -ed 终止时间
+- -gr 通配符匹配
+- -b 经纬度范围 （lon_min,lat_min,lon_max,lat_max）
+- -c 文件后缀
 --subset 调用 Harmony 对文件内部数据进行空间裁剪
 
 # 5、详细参数帮助文档
