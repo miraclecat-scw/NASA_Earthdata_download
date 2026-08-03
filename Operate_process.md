@@ -1,8 +1,8 @@
-1、配置环境：
-conda create --name podaac_env python==3.10
-conda activate podaac_env
-python -m pip install --upgrade pip
-python -m pip install earthaccess podaac-data-subscriber
+-1、配置环境：
+ -conda create --name podaac_env python==3.10
+ -conda activate podaac_env
+ -python -m pip install --upgrade pip
+ -python -m pip install earthaccess podaac-data-subscriber
 2、配置netrc文件
 python -c "import earthaccess; earthaccess.login(strategy='interactive', persist=True)"
 输入账号&密码
